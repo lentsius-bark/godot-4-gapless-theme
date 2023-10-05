@@ -1,0 +1,19 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://bohcjusxh24l3"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_fubxj"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_aee53"]
+
+[resource]
+Editor/constants/top_bar_separation = 0
+Editor/constants/window_border_margin = 0
+HBoxContainer/constants/separation = 1
+HSplitContainer/constants/autohide = 1
+HSplitContainer/constants/minimum_grab_thickness = 6
+HSplitContainer/constants/separation = 1
+HSplitContainer/icons/grabber = SubResource("PlaceholderTexture2D_fubxj")
+VBoxContainer/constants/separation = 1
+VSplitContainer/constants/autohide = 1
+VSplitContainer/constants/minimum_grab_thickness = 6
+VSplitContainer/constants/separation = 1
+VSplitContainer/icons/grabber = SubResource("PlaceholderTexture2D_aee53")
