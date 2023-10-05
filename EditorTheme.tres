@@ -4,6 +4,15 @@
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_aee53"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_20eiv"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8atl4"]
 [resource]
 Editor/constants/top_bar_separation = 0
 Editor/constants/window_border_margin = 0
@@ -18,3 +27,5 @@ VSplitContainer/constants/minimum_grab_thickness = 6
 VSplitContainer/constants/separation = 1
 VSplitContainer/icons/grabber = SubResource("PlaceholderTexture2D_aee53")
 Tree/constants/v_separation = 1
+Tree/styles/focus = SubResource("StyleBoxFlat_20eiv")
+Tree/styles/panel = SubResource("StyleBoxEmpty_8atl4")
